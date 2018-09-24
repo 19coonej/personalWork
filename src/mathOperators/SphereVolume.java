@@ -6,8 +6,8 @@ public class SphereVolume {
 		// TODO Auto-generated method stub
 
 		double radius = -999.99;
-		final double INITIAL = 1.33333333333333333333;
 		double volume = -999.999;
+		final double INITIAL  = 1.333333333333333333333333333;
 		Scanner input = new Scanner(System.in);
 		System.out.println("What is the radius of the sphere?");
 		radius = input.nextDouble();
