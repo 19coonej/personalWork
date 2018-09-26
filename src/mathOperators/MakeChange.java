@@ -25,6 +25,7 @@ public class MakeChange {
 		Scanner input = new Scanner(System.in);
 		System.out.println("What is your dollar.cent total?");
 		change = input.nextDouble();
+		
 		dollars = (change / 1);
 		dollarsTwo = (int) dollars;
 		subFromQ = dollarsTwo * (1);
@@ -36,7 +37,6 @@ public class MakeChange {
 		subFromPen = ((dimesTwo * .10) + (quartersTwo * .25) + (dollarsTwo * 1));
 		nickels = ((change - subFromPen) / 0.05);
 		nickelsTwo = (int) nickels;
-
 		subFromPent = ((nickelsTwo * .05) + (quartersTwo * .25) + dimesTwo * .10) + (dollarsTwo * 1);
 		pennies = ((change - subFromPent) / (.01));
 		penniesTwo = (int) pennies;
