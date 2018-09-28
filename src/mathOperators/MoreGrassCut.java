@@ -27,7 +27,7 @@ public class MoreGrassCut {
 		area = width * length;
 		ugh = deck * speed;
 		blah = area/ugh;
-		aye = blah * 12;
+		aye = (blah * 12) + 12;
 		System.out.println("you owe this many dollars: " + aye);
 		
 		
