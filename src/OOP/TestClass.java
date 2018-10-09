@@ -6,6 +6,9 @@ public class TestClass {
 		// TODO Auto-generated method stub
 		Greeter bob = new Greeter();
 		bob.sayHello();
+		System.out.println(bob.getAge());
+		bob.setAge(5);
+		System.out.println(bob.getAge());
 		Friend john = new Friend();
 		john.sayMessage();
 		Friend jenny = new Friend();
