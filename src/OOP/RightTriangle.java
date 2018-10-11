@@ -19,8 +19,18 @@ public void setBase(int newBase){
 public void setHeight(int newHeight){
 	height = newHeight;
 }
-public void hypot(){
+public double hypot(){
 	double hypot = Math.sqrt((base * base) + (height * height));
-	System.out.println("The hypotenuse is: " + hypot);
+	return hypot;
+}
+public double perimeter(){
+	double hypot = Math.sqrt((base * base) + (height * height));
+	double perimeter = base + height + hypot;
+	return perimeter;
+	
+}
+public double area(){
+	double area = (.5) * base * height;
+	return area;
 }
 }
