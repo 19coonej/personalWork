@@ -8,6 +8,11 @@ public class Cat {
 		age = 0;
 		sleep = 0;
 	}
+	
+	public Cat (int xage, int xsleep){
+		xage=age;
+		xsleep=sleep;
+	}
 
 	public int getAge() {
 		return age;
