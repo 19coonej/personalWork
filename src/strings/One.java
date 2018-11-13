@@ -33,6 +33,7 @@ public class One {
 		System.out.println("It is " + sent.contains("Bob") + " that the sentance says Bob.");
 		*/
 		
+		/*
 		System.out.println("Enter a name.");
 		String nameOne = input.nextLine();
 		System.out.println("Enter another name.");
@@ -50,6 +51,9 @@ public class One {
 		{
 			System.out.println("The names are the same.");
 		}
+		*/
+		
+		
 	}
 
 }
