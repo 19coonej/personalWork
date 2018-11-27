@@ -4,9 +4,9 @@ public class Scores {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		int [] scores = new int[25000];
+		int [] scores = new int[5];
 		int sum = 0;
-		for (int i = 0; i <= 4; i++)
+		for (int i = 0; i < scores.length; i++)
 		{
 			System.out.println("Enter a test score.");
 			scores[i] = input.nextInt();
