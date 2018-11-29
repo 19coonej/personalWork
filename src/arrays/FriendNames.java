@@ -28,13 +28,11 @@ public class FriendNames {
 		}
 		System.out.println("Enter a name length.");
 		int dLength = input.nextInt();
-		for (int y = 0; y < names.length; y++)
-		{
-			if (names[y].length() == dLength)
-			{
+		for (int y = 0; y < names.length; y++) {
+			if (names[y].length() == dLength) {
 				System.out.println(names[y]);
 			}
-		}
+		} 
 	}
 
 }
